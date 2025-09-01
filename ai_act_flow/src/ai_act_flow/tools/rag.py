@@ -199,7 +199,7 @@ class RAG(BaseTool):
                 "Instructions:\n"
                 "1) Answer only with information contained in the context.\n"
                 "2) If the answer is not in the context, write: "
-                "'Not in documentation'",
+                "Not in documentation",
             ),
         ])
     

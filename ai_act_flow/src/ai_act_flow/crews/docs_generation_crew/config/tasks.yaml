@@ -1,0 +1,6 @@
+write_document:
+  - description: >
+    Generate  EU AI Act documentation based on a provided template, filling it with informations extracted from questions and answers provided to you.
+    expected_output: >
+      Template filled with questions and answers in .rst format.
+    agent: "docs_writer_agent"
