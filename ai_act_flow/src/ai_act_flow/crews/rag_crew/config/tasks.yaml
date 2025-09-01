@@ -1,0 +1,12 @@
+check_documents:
+  - description: >
+      Answer a user-provided question using the Sphinx documentation
+      obtained via your available tool.
+      The task must:
+      - Receive a question as input.
+      - Retrieve the relevant passages from the indexed documentation base (via RAG).
+      - Generate a clear, concise, and comprehensive answer.
+      - Explicitly indicate if the answer is not available in the documentation.
+    expected_output: >
+      Answer or "Not in documentation".
+    agent: "Documentation Q&A Agent"
